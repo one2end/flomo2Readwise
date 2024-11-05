@@ -5,8 +5,7 @@ on:
   #   branches:
   #     - main
   schedule:
-    #- cron: '0 3 * * *'  # Runs daily at 03:00 UTC 
-    - cron: '0 */5 * * *'  # 每5小时
+    - cron: '0 3 * * *'  # Runs daily at 03:00 UTC 
   workflow_dispatch:
 
 jobs:
